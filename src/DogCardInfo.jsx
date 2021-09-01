@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({ imgUrl, breed }) => {
+export default ({ imgUrl, breed }) => (
     <div className="card dog-card">
         <div className="card-image">
             <figure className="image" style={{backgroundImage: `url(${imgUrl})`}}>
@@ -13,4 +13,4 @@ export default ({ imgUrl, breed }) => {
             </div>
         </div>
     </div>
-}
+)
