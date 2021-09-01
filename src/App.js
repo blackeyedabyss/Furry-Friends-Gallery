@@ -31,6 +31,19 @@ const loadDogPictures = async (dogsToLoad = 8) => {
 
 
 function App() {
+  const [dogPictures, setDogPictures] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [numOfDogs, setNumOfDogs] = useState('');
+  const [totalDogsSearched, setTotalDogsSearched] = useState(0);
+
+  const handleSubmit = async e => {
+    e.preventDefault();
+    setIsLoading(true);
+    setDogPictures(await loadDogPictures(numOfDogs));
+    setIsLoading(false);
+  };
+
+
   return (
     <>
       <h1>Welcome to the Furry Friends Gallery!</h1>
