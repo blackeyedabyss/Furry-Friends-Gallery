@@ -1,6 +1,12 @@
 # Furry Friends Gallery!
 
-A Doggo-specific image gallery, created using React and Bulma.css, but yours truly, for dog lovers. More info and a full demo soon.
+A Doggo-specific image gallery, created using React and Bulma.css, but yours truly, for dog lovers. 
+
+Tech Stack used / Techniques Applied: React, Bulma.CSS,  React Hooks (useState, useEffect), LifeCycle Methods, Form Input Handling using React, and state management on a broader aspect.
+
+Demo here: https://youtu.be/ng12CimKjEM
+
+This app helped me to understand how to fetch and deal with data from a pre-existing API endpoint, which in this case was the default dog.ceo API Endpoint. 😊 Many more apps to come!
 
 # Getting Started with Create React App
 
